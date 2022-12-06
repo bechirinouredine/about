@@ -96,13 +96,12 @@ a.contact-button:hover {
 }
 
 .section {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 30px;
     padding-bottom: 30px;
     overflow: auto;
 }
-
 div.section-grise1 {
     background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
     background-color: var(--color2);
@@ -119,6 +118,7 @@ h2 {
     text-align: left;
     font-size: 34px;
     margin-top: 0px;
+    color: var(--color1);
 }
 
 div.separateur {
@@ -142,7 +142,13 @@ div.section-grise1 p {
 img.col-contenu {
     width: 40%;
 }
-
+ul.contact-info li{
+    margin-top: 5px;
+}
+ul.contact-info li a{
+    text-decoration: none;
+    color: blue;
+}
 div.col-contenu {
     width: 60%;
     padding-left: 16px;
@@ -173,6 +179,12 @@ div.barre-verticale {
 .col-portfolio {
     width: 47%;
 
+}
+.col-parcours-competences {
+    width: 55%;
+}
+.col-conetenu-contact {
+    width: 35%;
 }
 
 div.frame {
@@ -266,10 +278,14 @@ img.portfolio {
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 20px;
     }
 
-    img.col-contenu {
+    .col-parcours-competences {
+        width: 100%;
+    
+    }
+    .col-conetenu-contact {
         width: 100%;
     }
     
