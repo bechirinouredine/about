@@ -2,20 +2,18 @@
     box-sizing: border-box;
 }
 
-.whatsapp{
-    width: 250px;
-    height: 48px;  
+.icon{
+vertical-align: top;
 }
-.whatsapp img{
-    width: 45px;
-    height: 45px;
-    float: left;
-    margin-right: 5px;
+.icon img{
+    width: 40px;
+    height: 40px;
+    
 }
-div.whatsapp p{
+div.icon p{
     margin: 0px;
     padding: 0px;
-  
+    display: inline-block;
 }
 :root {
     --color1: #D89584;
@@ -69,7 +67,7 @@ div.cover-contact {
     top: 20px;
     left: 10px;
     border-left: 4px solid var(--color1);
-    padding-left: 8px;
+    padding-left: 5px;
 }
 
 div.cover-contact p {
@@ -156,9 +154,7 @@ div.section-grise1 p {
 img.col-contenu {
     width: 40%;
 }
-ul.contact-info li{
-    margin-top: 5px;
-}
+
 ul.contact-info li a{
     text-decoration: none;
     color: blue;
