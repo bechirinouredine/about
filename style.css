@@ -114,6 +114,11 @@ a.contact-button:hover {
     padding-bottom: 30px;
     overflow: auto;
 }
+.section-content{
+    margin: auto; 
+    width: 70%;
+}
+
 div.section-grise1 {
     background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
     background-color: var(--color2);
@@ -271,6 +276,10 @@ img.portfolio {
 
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
+    .section-content{
+        margin: auto; 
+        width: 100%;
+    }
     img.cover-profile {
         height: 90px;
         margin-top: 75px;
@@ -290,6 +299,10 @@ img.portfolio {
     .section {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .section-grise2 p {
+        width: 100%
+
     }
     
     div.section-grise1 {
@@ -313,7 +326,9 @@ img.portfolio {
         padding-left: 0px;
         margin-top: 20px;
     }
-
+    .section-content table{
+        width: 50%;
+    }
     .col-portfolio {
         width: 100%;
         margin-bottom: 20px;
