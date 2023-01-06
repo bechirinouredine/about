@@ -114,10 +114,6 @@ a.contact-button:hover {
     padding-bottom: 30px;
     overflow: auto;
 }
-.section-content{
-    margin: auto; 
-    width: 70%;
-}
 
 div.section-grise1 {
     background: url(triangle2white.svg) no-repeat center bottom -1px/100%;
@@ -160,7 +156,7 @@ div.section-grise2 p {
     font-size: 22px;
     color: #656565;
     text-align: center;
-    max-width: 750px;
+    max-width: 950px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -200,16 +196,6 @@ div.barre-verticale {
     margin-right: 8px;
 }
 
-.col-portfolio {
-    width: 25%;
-
-}
-.col-parcours-competences {
-    width: 55%;
-}
-.col-conetenu-contact {
-    width: 35%;
-}
 
 div.frame {
     margin: 30px 50px;
@@ -274,6 +260,39 @@ img.portfolio {
 }
 
 
+/* CSS ADDED BY NB*/
+.section-content{
+    margin: auto; 
+    width: 85%;
+}
+.pourquoi-consultant p{
+    margin: 0px;
+    padding-left: 10px;
+}
+.pourquoi-consultant h2{
+   margin-bottom: 10px;
+   padding-left: 10px;
+}
+.col-pourquoi-consultant tr{
+   vertical-align: top;
+ }
+.col-pourquoi-consultant td{
+    width: 50%;
+    padding: 0px 10px 0px 10px;
+    display: inline-block;
+  }
+.col-parcours-competences {
+    width: 55%;
+}
+.col-conetenu-contact {
+    width: 35%;
+}
+.service_tech_td{
+    width: 20%;
+}
+.service_tech img{
+        width: 100%;
+}
 /* RESPONSIVE DESIGN : MOBILE */
 @media only screen and (max-width: 767px) {
     .section-content{
@@ -312,27 +331,18 @@ img.portfolio {
     h2 {
         font-size: 20px;
     }
-
-    .col-parcours-competences {
-        width: 100%;
-    
-    }
-    .col-conetenu-contact {
-        width: 100%;
-    }
     
     div.col-contenu {
         width: 100%;
         padding-left: 0px;
         margin-top: 20px;
     }
-    .section-content table{
-        width: 50%;
-    }
+   
     .col-portfolio {
         width: 100%;
         margin-bottom: 20px;
     }
+
 
     div.frame {
         margin: 0px 0px;
@@ -375,5 +385,46 @@ img.portfolio {
 
     .display-mobile {
         display: block;
+    }
+  
+   /* CSS ADDED BY NB*/
+   
+   .col-parcours-competences {
+    width: 100%;
+
+    }
+    .col-conetenu-contact {
+        width: 100%;
+    }
+   .pourquoi-consultant p{
+    margin: 0px;
+    padding:0px;
+    }
+    .pourquoi-consultant h2{
+    margin: 0px;
+    padding: 0px;
+    }
+    .col-pourquoi-consultant {
+        width: 100%;
+    }
+    .col-pourquoi-consultant td{
+        width: 100%;
+        padding: 0px;
+    
+      }
+    
+    
+    .service_tech_td{
+        width: 100%;
+        display: inline-block;
+    }
+    .service_tech_td_right{
+        width: 100%;
+        display: inline-block;
+    }
+    .service_tech img{
+        margin: auto;
+        display: block;
+        width: 80%;
     }
 }
