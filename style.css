@@ -18,12 +18,17 @@ div.icon p{
 :root {
     --color1: #D89584;
     --color2: #F4F4F4;
+    --ad-col: rgb(50, 135, 233);
+    --skype-col: rgb(28, 123, 231);
+    --sharepoint-col: rgb(10, 55, 107);
+    --exchange-col: rgb(8, 55, 107);
 }
 
 body {
     margin: 0;
     font-family: Arial;
     line-height: 1.5;
+   
 }
 
 iframe {
@@ -259,12 +264,16 @@ img.portfolio {
 
 
 /* CSS ADDED BY NB*/
+.service-tech tr{
+    display: inline-block;
+    max-width: 75%;
+}
 .img-serivce-tech{
-    max-width: 450px;
+    max-width: 150px;
 }
 .section-content{
     margin: auto; 
-    width: 70%;
+    width: 80%;
 }
 .pourquoi-consultant p{
     margin: 0px;
@@ -386,12 +395,12 @@ img.portfolio {
     }
   
    /* CSS ADDED BY NB*/
-   .img-serivce-tech{
-    max-width: 100%;
-}
+   .service-tech tr{
+        max-width: 100%;
+    }
+    
    .col-parcours-competences {
     width: 100%;
-
     }
     .col-conetenu-contact {
         width: 100%;
@@ -412,6 +421,8 @@ img.portfolio {
         padding: 0px;
     
       }
-    
+    .img-serivce-tech{
+        max-width: 100%;
+    }
     
 }
